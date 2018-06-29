@@ -1,0 +1,219 @@
+.App {
+  /* text-align: center; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 50px; */
+}
+
+.container{
+  display: flex;
+  padding: 30px 50px;
+}
+
+.left{
+  width: 20%;
+  padding-right: 16px !important;
+}
+
+.right{
+  width: 80%;
+  padding-left: 16px !important;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 1024px) {
+  /* For desktops: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+  }
+  .left{
+    width: 100%;
+
+  }
+
+  .right{
+    width: 100%;
+    padding-left: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktops: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+  }
+  .left{
+    width: 25%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 35%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 50%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 41%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 467px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 65%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 75%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 75%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 85%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 90%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+
+  .left{
+    width: 100%;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+}
